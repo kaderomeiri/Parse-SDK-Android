@@ -59,7 +59,7 @@ class OfflineSQLiteOpenHelper extends ParseSQLiteOpenHelper {
                         + TABLE_OBJECTS
                         + " ("
                         + KEY_UUID
-                        + " TEXT PRIMARY KEY, "
+                        + " TEXT PRIMARY KEY NOT NULL, "
                         + KEY_CLASS_NAME
                         + " TEXT NOT NULL, "
                         + KEY_OBJECT_ID
